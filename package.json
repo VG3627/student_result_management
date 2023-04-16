@@ -1,0 +1,21 @@
+{
+  "name": "projectnodejs",
+  "version": "1.0.0",
+  "description": "A Result Management System using HTML, CSS, JavaScript , Node and using MVC Model.<br/> • Two types of users can login to application by clicking a button on homepage.<br/> • Students can enter their roll number and date of birth to view their result.<br/> • Teachers can View all records, add new record, edit and delete the records.<br/>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
